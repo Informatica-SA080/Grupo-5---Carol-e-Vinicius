@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Mundo das Notícias</name>
+    <description>
+        By Carol: O meu aplicativo é sobre Notícias Mundias. Ele fala sobre notícias internacionais, notícias sobre a política, sobre a educação e esporte. O motivo da escolha foi desenvolver um aplicativo que informa as pessoas sobre o mundo das notícias. O desenvolvimento ainda está em andamento. A dificuldade está sendo em terminar uma das páginas pois as imagens ficam muito grandes e o site fica dando problema. O código que está sendo utilizado ele está sendo muito útil para o desenvolvimento do site.    </description>
+		By Vinícius: O meu aplicativo fala sobre diversos tipos de notícias como: Política, educação, internacionais e sobre esportes. O motivo é para que as  pessoas que visitarem o site saibam tudo o que está acontecendo no mundo. As minhas dificuldades foi para arrumar o site do jeito que eu queria,e colocar as imagens no site. Ainda não terminei o aplicativo então ainda estou desenvolvendo. O código que eu utilizei foi muito útil no desenvolvimento do aplicativo e no desenvolvimento do site.
+	<author email="support@phonegap.com" href="http://phonegap.com">
+        Grupo 5 - Carol e Vinícius
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+   
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/mdpi.png" />
+        <icon density="mdpi" src="www/res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="www/res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="www/res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/xxxhdpi.png" />
+    </platform>
+    
+    <access origin="*" />
+	<allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
